@@ -1,0 +1,113 @@
+.footer {
+    display: inline-flex;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+ padding: 1rem;
+   width: 100%;
+  background-color: #efefef;
+  text-align: center;
+  
+}
+ 
+/* Pen-specific styles */
+* {
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+}
+
+body{
+  height: 100%;
+}
+
+div{
+    height: 86%;
+}
+#a1{
+    position: relative;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+h1 {
+  font-size: 1.75rem;
+  margin: 0 0 0.75rem 0;
+}
+
+/* Pattern styles */
+.left-half{
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  background-color:#195998;
+  height : 100%;
+  color : #FFF;
+
+}
+.right-half{
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  background-color:white;
+  height : 100%;
+  color : #195998;
+}
+
+.left-half:hover {
+  background-image: url(assests/3.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.left-half{
+    background-color: #195998;
+   
+    
+}
+.right-half{
+    background-color: white;
+    
+    
+}
+.right-half:hover {
+  background-image: url(assests/1.jpg);
+    background-position: center;
+    background-size:cover;
+
+}
+
+li{
+    text-align: left;
+    list-style: none;
+}
+
+/* Style the image inside the centered container, if needed */
+img {
+  width: 75px;
+  border-radius: 50%;    
+}
+
+h2{
+    display: inline-flex;
+}
+
+@media (max-width: 1200px) { 
+  .left-half{
+    height:50%
+  }
+  .right-half{
+    height:50%
+  }
+ .footer{
+   display : flex;
+   justify-content : center;
+   align-items : center;
+   background-color:#000;
+   color : #FFF;
+   height:100%
+ }
+}

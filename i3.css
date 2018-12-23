@@ -1,0 +1,68 @@
+html{
+  height:100%
+}
+body{
+  height:100%;
+  width: 100%;
+  overflow-x:hidden;
+}
+.row{
+  height:100%
+}
+
+.left{
+  display : flex;
+  padding :5%;
+    padding-top: 10%;
+  background-color:#195998;
+  height : 100%;
+  color : #FFF;
+
+}
+.right{
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  background-color:white;
+  height : 100%;
+  color : #3d231b;
+}
+
+.about{
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  background-color:#000;
+  color : #FFF;
+  height:100%
+}
+#a1{
+    position: relative;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+h1 {
+  font-size: 1.75rem;
+  margin: 0 0 0.75rem 0;
+}
+pre{
+    color: gainsboro;
+}
+li{
+    text-align: left;
+    list-style: none;
+}
+
+
+img {
+  width: 75px;
+  border-radius: 50%;    
+}
+
+h2{
+    display: inline-flex;
+}
+
+

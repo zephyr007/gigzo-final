@@ -1,0 +1,129 @@
+.footer {
+    display: inline-flex;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+ padding: 1rem;
+   width: 100%;
+  background-color: #efefef;
+  text-align: center;
+  
+}
+ 
+/* Pen-specific styles */
+* {
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+}
+
+body{
+  height: 100%;
+  background-color: greenyellow;
+}
+
+div{
+    height: 86%;
+}
+a1{
+    position: relative;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+article {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-size: 1.75rem;
+  margin: 0 0 0.75rem 0;
+}
+
+/* Pattern styles */
+div {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  padding: 1rem;
+}
+
+.left-half:hover {
+  background-image: url(assests/11.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.left-half{
+    background-color: #195998;
+   
+    
+}
+.right-half{
+    background-color: white;
+    
+    
+}
+.right-half:hover {
+  background-image: url(assests/13.jpg);
+    background-position: center;
+    background-size:cover;
+
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+/* Pen-specific styles */
+html, body, section {
+  height: 100%;
+}
+
+/* Pattern styles */
+div {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  padding: 1rem;
+}
+
+.left-half:hover {
+  background-image: url(assests/3.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.left-half{
+    background-color: #195998;
+   
+    
+}
+.right-half{
+    background-color: white;
+    
+    
+}
+.right-half:hover {
+  background-image: url(assests/1.jpg);
+    background-position: right;
+    background-size:cover;
+
+}
+div {
+    text-align: center;
+    }
+/* Pattern styles */
+.container {
+  display: block;
+}
+
+}
